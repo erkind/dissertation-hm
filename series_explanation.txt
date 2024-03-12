@@ -1,0 +1,48 @@
+Ceci est un document expliquant les séries qui se trouvenst dans Hedge_fund.csv et cut_data.csv, la seule différence est que hedge_data, contiennent aussi les séries de SP500, 3 month t-bill rate, et les autres series des yields a travers lesquelles les spreads ont éte calculés. Les deux fichiers contiennent les séries des return des hedge funds et les variables explicatives. 
+
+HFI : Ceci est l'agrégat des indices des hedge fund par stratégie
+CA :série de la stratégie Convertible arbitrage
+EM :série de la stratégie Emerging Markets
+EMN :série de la stratégie Equity Market Neutral
+ED :série de la stratégie Event Driven
+EDD : série de la stratégie Event Driven Distressed
+EDM :série de la stratégie Event Driven Multi_strategy
+EDRA : série de la stratégie Event Driven Risk Arbitrage
+FIA:série de la stratégie Fixed Income Arbitrage
+GM : série de la stratégie Global Macro
+LE : série de la stratégie Long/short equity
+MF : série de la stratégie Managed Futures
+M : série de la stratégie Multi-strategy
+
+*Les variables explicatives: contenu dans hedge_fund.csv 
+rf : série du risk-free rate (3 month t-bill rate)
+SP500 : série de l'indice SP500
+MSCI_WORLD : série de l'indice MSCI_WORLD
+Corp3y : série des yields annuels des bonds corporates à maturité de 3 ans 
+Corp10y : série des yields annuels des bonds corporates à maturité de 10 ans
+spread_mat : la différence entre les deux séries précédentes 
+Mom : série du facteur momentum 
+high_yield : série des yields annuels des bonds corporates à maturité de 10 ans raté BBB and plus
+inv_grade : série des yields annuels des bonds corporates à maturité de 10 ans raté CCC and lower
+default_spread :la différence entre les deux séries précédentes
+
+
+
+*Les variables explicatives: contenu dans cut_data.csv 
+SP500 : série de l'indice SP500
+spread_mat : la différence entre les deux séries précédentes 
+Mom : série du facteur momentum 
+default_spread :la différence entre les deux séries précédentes
+  
+
+Pour les régressions, le fichier cut_data est suffisant puisque les autres séries qui ne s'y trouvent pas nous ont servi que pour le calcul des spreads et  l'excess return. 
+
+
+
+
+
+
+
+
+
+
